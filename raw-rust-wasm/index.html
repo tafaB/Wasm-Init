@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>WebAssembly Demo</title>
+  </head>
+  <body>
+    <h1>WebAssembly Demo</h1>
+      <!-- CALCULATOR -->
+    <h2>Calculator</h2>
+    <input type="number" id="input1" />
+    <input type="number" id="input2" />
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Subtract</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Divide</button>
+    <p id="result">
+      Result: <span id="output1">0</span>
+    </p>
+    <script src="index.js"></script>
+      <!-- PRIME NUMBER COMPERASON -->
+    <h2>Prime Number Comperason</h2>
+    <input type="number" id="input3" />
+    <button onclick="prime()">Check</button>
+    <p id="result2">
+      Rust: <span id="output2">0</span>
+      JavaScript: <span id="output3">0</span>
+    </p>
+  </body>
+</html>
